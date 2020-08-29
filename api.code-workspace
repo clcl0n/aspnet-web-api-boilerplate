@@ -1,15 +1,32 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"explorer.sortOrder": "type"
-	},
-	"extensions": {
-		"recommendations": [
-			"ms-dotnettools.csharp"
-		]
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "explorer.sortOrder": "type",
+    "editor.rulers": [
+      100
+    ],
+    "workbench.colorCustomizations": {
+      "editorRuler.foreground": "#ff4081"
+    },
+    "editor.formatOnSave": true,
+    "editor.renderIndentGuides": true,
+    "indenticator.showHighlight": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csharp",
+      "k--kato.docomment",
+      "ms-azuretools.vscode-docker",
+      "eamodio.gitlens",
+      "sirtori.indenticator",
+      "jmrog.vscode-nuget-package-manager"
+    ]
+  }
 }
